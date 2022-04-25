@@ -38,7 +38,7 @@ tasks.withType<KotlinCompile> {
         freeCompilerArgs = listOf(
             "-opt-in=kotlin.RequiresOptIn"
         )
-        jvmTarget = "17"
+        jvmTarget = "11"
     }
 }
 
